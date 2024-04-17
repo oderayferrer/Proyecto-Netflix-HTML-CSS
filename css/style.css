@@ -193,16 +193,33 @@ div.login :hover{
     text-align: left;
 
 }
-.pregunta, .respuesta{
+.pregunta{
     background: #303030;
     padding: 10px;
     margin-bottom: 5px;
     margin-top: 5px;
+    cursor: pointer;
 }
 .pregunta p, .respuesta p{
     padding: 10px;
     padding-left: 20px;
 }
-.respuesta{
 
+.pregunta:hover .respuesta{
+    max-height: 1000px;
+}
+
+.respuesta hr{
+    border: 1px solid #262626
+}
+.respuesta{
+    background: #303030;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+.respuesta{
+    max-height: 0px;
+    overflow: hidden;
+    transition: all, 1s;
 }
