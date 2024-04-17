@@ -178,3 +178,31 @@ div.login :hover{
     position: relative;
     transform: translate(-36px,-51px );
 }
+/* tv */
+/* preguntas */
+.preguntas h2{
+    font-weight: bold;
+    font-size: 35px;
+}
+.contPreguntas{
+    width: 650px;
+    margin: auto;
+    text-align: center;
+}
+.contPreguntas div{
+    text-align: left;
+
+}
+.pregunta, .respuesta{
+    background: #303030;
+    padding: 10px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+.pregunta p, .respuesta p{
+    padding: 10px;
+    padding-left: 20px;
+}
+.respuesta{
+
+}
