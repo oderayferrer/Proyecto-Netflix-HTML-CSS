@@ -162,3 +162,8 @@ div.login :hover{
     width: 266px;
     z-index: 1;
 }
+.tarjetaInt{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
