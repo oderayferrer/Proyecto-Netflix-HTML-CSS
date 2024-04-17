@@ -162,8 +162,10 @@ div.login :hover{
     width: 266px;
     z-index: 1;
 }
-.tarjetaInt{
+
+.tarjetaInt, .portada{
     display: flex;
     justify-content: center;
     align-items: center;
 }
+
