@@ -105,14 +105,15 @@ div.login :hover{
     background: #f00;
     padding: 22px;
     padding-bottom: 24px;
-    font-weight: 500;
-    margin-left: -4px;
+    font-weight: 800;
+    margin-left: 0.5rem;
     border: solid #e90000;
+    border-radius: 0.25rem;
     
 }
-.presentacion span:hover{
+.presentacion span:hover, .contPreguntas span:hover{
     cursor: pointer;
-    background: #ff0000;
+    background: #d20000;
 }
 /* cabecera */
 /* tv */
@@ -222,4 +223,56 @@ div.login :hover{
     max-height: 0px;
     overflow: hidden;
     transition: all, 1s;
+}
+.contPreguntas input{
+    height: 60px;
+    width: 438px;
+    margin-top: 20px;
+    margin-bottom: 3px;
+    border-radius: 4px;
+    border: solid 1px #ffffff;
+    padding-left: 11px;
+    color: #5e5e5e;
+    background-color: rgba(0, 0, 0, .4);
+}
+.contPreguntas span{
+    background: #f00;
+    padding: 18px;
+    padding-bottom: 19px;
+    font-weight: 500;
+    margin-left: 0.5rem;
+    border: solid #e90000;
+    border-radius: 0.25rem;
+}
+.contPreguntas h3{
+    font-size: 13px;
+}
+
+.info{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* Creates 4 equal-width columns */
+    gap: 20px; /* Adds some space between grid items */
+    width: 1100px;
+    margin: auto;
+}
+.info p{
+    text-decoration: underline;
+    color: rgba(255, 255, 255, 0.7);
+    line-height: 2.2rem;
+}
+.info p:hover{
+    cursor: pointer;
+}
+.preguntasFrecuentes{
+    width: 1100px;
+    margin: auto;
+    padding-bottom: 20px;
+}
+.preguntasFrecuentes h2, p{
+    font-size: medium;
+    display: inline;
+    color: rgba(255, 255, 255, 0.7);
+}
+.preguntasFrecuentes p:hover{
+    cursor: pointer;
 }
