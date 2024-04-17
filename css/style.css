@@ -32,6 +32,8 @@ section div.contenido{
     width: 1100px;
     border:solid #0000ff ;
     margin: auto;
+    display: flex;
+    align-items: center;
 
 }
 section div.contenido div{
@@ -126,7 +128,31 @@ div.login :hover{
 }
 .flotanteTexto{
     width: 59%;
+
 }
 .flotanteImagen{
     width: 39%;
+}
+.tv img{
+    width: 100%;
+    height: auto;
+    border: 0;
+    position: relative;
+    z-index: 2;
+
+}
+.tv h2{
+    font-weight:bold ;
+    font-size: 50px;
+}
+.tv p{
+    font-size:25px;
+    font-weight: 200;
+}
+
+.tv video{
+    position: absolute;
+    transform: translate(-373px,66px);
+    width: 315px;
+    z-index: 1;
 }
