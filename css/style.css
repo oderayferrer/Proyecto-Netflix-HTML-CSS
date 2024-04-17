@@ -24,22 +24,18 @@ h3{
 
 section{
     background: #000;
-    border: solid #ff0000;
     padding-top: 50px;
     padding-bottom: 50px;
+    border-bottom: 8px solid #222;
 }
 section div.contenido{
     width: 1100px;
-    border:solid #0000ff ;
     margin: auto;
     display: flex;
     align-items: center;
 
 }
-section div.contenido div{
-    
-    border:solid #eeff00 ;
-}
+
 .restaurar{
     clear: both;
 }
@@ -165,7 +161,20 @@ div.login :hover{
 
 .tarjetaInt, .portada{
     display: flex;
-    justify-content: center;
     align-items: center;
 }
 
+.tarjetaInt{
+    width: 56%;
+    margin: auto;
+    border: solid 1px #898989;
+    padding: 10px;
+    border-radius: 15px;
+    position: relative;
+    z-index: 2;
+    background: #000;
+}
+.tarjeta{
+    position: relative;
+    transform: translate(-36px,-51px );
+}
